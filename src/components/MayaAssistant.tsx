@@ -68,7 +68,7 @@ export default function MayaAssistant({ isOpen, onClose }: { isOpen?: boolean; o
                 </div>
                 
                 <iframe
-                  src="https://mayaai.sbs/?context=restaurant_greet_mode"
+                  src="https://mayaai.sbs?source=arbite"
                   className="w-full h-full border-none"
                   allow="microphone; camera"
                   title="Maya AI"
