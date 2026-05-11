@@ -1,0 +1,6 @@
+{
+  "name": "AR Bite",
+  "description": "A premium WebAR restaurant menu platform with 3D food models, AI waiter assistant, and seamless ordering.",
+  "requestFramePermissions": ["camera", "xr-spatial-tracking"],
+  "majorCapabilities": ["AR", "AI Assistant", "Real-time Ordering"]
+}
