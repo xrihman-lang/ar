@@ -114,7 +114,7 @@ export default function OrderSuccessPage({ onOpenMaya }: { onOpenMaya: () => voi
               Order More
             </button>
             <button 
-              onClick={() => navigate('/')}
+              onClick={() => navigate('/home')}
               className="flex-1 py-4 bg-amber-500 text-black font-black rounded-2xl text-[10px] uppercase tracking-widest transition-all"
             >
               Finish

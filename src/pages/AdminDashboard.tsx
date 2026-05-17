@@ -199,7 +199,7 @@ export default function AdminDashboard({
             </button>
           ))}
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate('/home')}
             className="flex items-center gap-3 px-5 py-4 rounded-xl transition-all text-[10px] font-black tracking-[0.2em] text-slate-500 hover:bg-white/5 hover:text-white mt-4"
           >
             <Home className="w-4 h-4" />

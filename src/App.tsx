@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
+import WelcomePage from './pages/WelcomePage';
 import MenuPage from './pages/MenuPage';
 import ARPage from './pages/ARPage';
 import CheckoutPage from './pages/CheckoutPage';
@@ -143,7 +144,8 @@ export default function App() {
     <div className="min-h-screen bg-[#05070a] text-white relative">
       <AnimatePresence mode="wait">
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<WelcomePage />} />
+          <Route path="/home" element={<LandingPage />} />
           <Route path="/menu" element={<MenuPage menuItems={menuItems} addToCart={addToCart} cart={cart} />} />
           <Route path="/ar/:id" element={<ARPage menuItems={menuItems} addToCart={addToCart} placeDirectOrder={placeDirectOrder} />} />
           <Route path="/checkout" element={<CheckoutPage cart={cart} updateQuantity={updateQuantity} removeFromCart={removeFromCart} placeOrder={placeOrder} />} />
